@@ -9,7 +9,7 @@ project(smarthome_light_msgs_java)
 # Catkin
 ##############################################################################
 
-find_package(catkin REQUIRED genjava smarthome_light_msgs)
+find_package(catkin REQUIRED genjava geometry_msgs sensor_msgs smarthome_msgs smarthome_light_msgs)
 
 generate_rosjava_messages(
   PACKAGES

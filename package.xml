@@ -16,6 +16,8 @@
   <build_depend>genjava</build_depend>
   <build_depend>rosjava_messages</build_depend>
   
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
   <build_depend>smarthome_light_msgs</build_depend>
 
   <!-- needed for genjava rosdistro dependency -->
